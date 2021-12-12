@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model and background</title>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: gray;
+    }
+    #box{
+        background-color: blue;
+        padding: 10px 10px 10px 10px;
+        border: 5px solid black;
+        width: 200px;
+        height: 100px;
+        margin-top: 50px;
+        overflow: auto;
+    }
+    #content{
+        background-color: aqua;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+</style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">
+            in the previous chapter, we used the classic "Hello, world!" example to get a glimpse of just how easy it is to style an HTML element with CSS. 
+			But why did it look the way it did? In this chapter, we'll focus on the anatomy and syntax of CSS, to get a deeper understanding of how it works. 
+			Let's have a look at the previously mentioned example again, where we had a CSS rule which targeted H1 elements:
+        </div>
+    </div>
+    <div>
+        in the previous chapter, we used the classic "Hello, world!" example to get a glimpse of just how easy it is to style an HTML element with CSS. 
+			But why did it look the way it did? In this chapter, we'll focus on the anatomy and syntax of CSS, to get a deeper understanding of how it works. 
+			Let's have a look at the previously mentioned example again, where we had a CSS rule which targeted H1 elements:
+    </div>
+</body>
+</html>
